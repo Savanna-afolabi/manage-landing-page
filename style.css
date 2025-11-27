@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+body{
+overflow-x: hidden;
+min-height: 100vh;
+}
 :root{
 --Orange-400: hsl(12, 88%, 59%);
 --Blue-950: hsl(228, 39%, 23%);
@@ -30,8 +33,32 @@ ul{
     padding: 0 100px;
     margin: 0 auto;
     max-width: 1400px;
-
 }
 button{
-    
+background-color: var(--Orange-400);
+border-radius: 20px;
+height: 50px;
+width: 180px;
+border: none;
+color: white;
+font-family: var(--font-family);
+}
+#section-1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: var(--Blue-950);
+    font-size: 40px;
+    font-family: var(--font-family);
+    line-height: 41px;
+    margin-top: 90px;
+}
+p{
+    font-family: var(--font-family);
+    font-weight: 200;
+    margin-top: 30px;
+}
+#started{
+    margin-top: 25px;
 }
