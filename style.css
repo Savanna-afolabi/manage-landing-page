@@ -53,6 +53,8 @@ h2{
     font-family: var(--font-family);
     line-height: 41px;
     margin-top: 90px;
+    display: flex;
+    justify-self: normal;
 }
 p{
     font-family: var(--font-family);
@@ -61,4 +63,59 @@ p{
 }
 #started{
     margin-top: 25px;
+}
+button:hover{
+    background-color: var(--Orange-50);
+    cursor: pointer;
+}
+#data-img{
+    margin-top: 70px;
+   
+}
+#hamburger{
+    display: none;
+}
+
+@media (max-width: 475px) {
+    
+body{
+    overflow-x: hidden;
+}
+li{
+    display: none;
+}
+#hamburger{
+    display: block;
+}
+#first-btn{
+    display: none;
+}
+#data-img{
+    width: 100%;
+    margin-right: 30px;
+}
+#section-1{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.container{
+    padding: 20px 40px;
+}
+h2{
+   font-size: 35px;
+   margin-left: 10px;
+   margin-top: 50px;
+}
+#started{
+    margin-left: 60px;
+}
+p{
+    margin-left: 10px;
+}
+button{
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 }
