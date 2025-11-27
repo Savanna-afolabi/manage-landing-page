@@ -34,7 +34,7 @@ ul{
     margin: 0 auto;
     max-width: 1400px;
 }
-button{
+.sct-1-btns{
 background-color: var(--Orange-400);
 border-radius: 20px;
 height: 50px;
@@ -60,6 +60,7 @@ p{
     font-family: var(--font-family);
     font-weight: 200;
     margin-top: 30px;
+    color: var(--Blue-950);
 }
 #started{
     margin-top: 25px;
@@ -120,5 +121,20 @@ button{
 }
 }
 h4{
-    
+    font-family: var(--font-family);
+    color: var(--Blue-950);
+}
+#section-2{
+    display: flex;
+    flex-direction: row;
+}
+.sct-2-btns{
+    background-color: var(--Orange-400);
+    border-radius: 20px;
+    height: 50px;
+    width: 80px;
+    border: none;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 25px;
 }
