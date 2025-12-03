@@ -138,3 +138,17 @@ h4{
     font-family: var(--font-family);
     font-size: 25px;
 }
+.one-two-and-three{
+    display: flex;
+    /* border: red solid 5px; */
+    flex-direction: column;
+    /* row-gap: 40px; */
+}
+.sct2-divs{
+    margin-bottom: 30px;
+    width: 480px;
+}
+#h2-sct2{
+    margin-right: 30px;
+   
+}
