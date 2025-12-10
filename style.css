@@ -177,7 +177,7 @@ h4{
 }
 .text-sct2{
     display: flex;
-    justify-self: center;   
+    justify-self: center;  
 }
 .title-and-button{
     display: flex;
@@ -188,7 +188,7 @@ h4{
     gap: 20px;
 }
 .sct2-h3{
-    color: var(--Blue-950);
-    font-family: var(--font-family);
-    
+border: red solid 1px;
+
+
 }
