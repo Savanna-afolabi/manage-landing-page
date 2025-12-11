@@ -130,6 +130,7 @@ button{
 h4{
     font-family: var(--font-family);
     color: var(--Blue-950);
+    
 }
 #section-2{
     display: flex;
@@ -162,6 +163,9 @@ h4{
 #sct-2-h2{
     padding-bottom: 55px;
 }
+#div-title{
+    margin-right: 35px;
+}
 @media (max-width: 475px) {
 
     .sct2-divs{
@@ -175,8 +179,9 @@ h4{
         flex-direction: column;
     }
    h4{
-    font-size: 27px;
+    font-size: 25px;
    }
+   
 }
 #sct-2-h2{
     align-self: center;
@@ -212,7 +217,9 @@ h3{
 .review{
     border-radius: 20px;
     background-color: var(--Gray-50);
-    border: blue 1px solid;
+    margin-bottom: 40px;
+    padding: 20px;
+    
 }
 
 @media (max-width: 475px){
@@ -222,4 +229,21 @@ h3{
     #review-3{
         display: none;
     }
+}
+#white-button{
+    border-radius: 20px;
+    height: 50px;
+    width: 180px;
+    border: none;
+    color: var(--Orange-50);
+    background-color: var(--Gray-50);
+    font-family: var(--font-family);
+}
+footer{
+    background-color: var(--Orange-400);
+    display: flex;
+}
+#ft-div{
+    display: flex;
+    gap: 300px;
 }
