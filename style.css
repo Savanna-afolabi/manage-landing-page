@@ -82,6 +82,8 @@ button:hover{
     
 body{
     overflow-x: hidden;
+    background-image: url(asset/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
 }
 li{
     display: none;
@@ -101,7 +103,7 @@ li{
     flex-direction: column-reverse;
 }
 .container{
-    padding: 20px 40px;
+    padding: 20px 5px;
 }
 h2{
    font-size: 35px;
@@ -122,6 +124,7 @@ button{
 .moving{
     margin-right: 15px;
 }
+
 }
 h4{
     font-family: var(--font-family);
@@ -143,9 +146,7 @@ h4{
 }
 .one-two-and-three{
     display: flex;
-    /* border: red solid 5px; */
     flex-direction: column;
-    /* row-gap: 40px; */
 }
 .sct2-divs{
     margin-bottom: 30px;
@@ -161,6 +162,9 @@ h4{
     margin-right: 35px;
 }
 @media (max-width: 475px) {
+    .fix-button{
+    margin-right: 70px;
+    }
     .sct2-divs{
         display: flex;
         flex-direction: column;
@@ -172,8 +176,41 @@ h4{
         flex-direction: column;
     }
    h4{
-    font-size: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 80px;
+    width: 100%; 
    }
+   .sct2-divs{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    text-align: center;
+    justify-content: center;
+   }
+    #h2-sct2{
+       text-align: center;
+        font-size: 34px;
+    }
+    .sct-2-btns{
+        padding: 15px 40px;
+        border-radius: 40px; 
+    }
+  .cn{
+    font-size: 20px;
+    width: 100%;
+    color: var(--Gray-950);
+    font-weight: 200;
+    margin-left: 186px;
+}
+#ali-button{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 }
 #sct-2-h2{
     align-self: center;
@@ -217,6 +254,10 @@ h3{
     }
     #review-3{
         display: none;
+    }
+    .text-sct2{
+        text-align: center;
+        font-size: 19px;
     }
 }
 #white-button{
@@ -331,5 +372,5 @@ footer{
     align-items: center;
     flex-direction: row; 
     margin-right: 30px;
-} 
+}
 }
