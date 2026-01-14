@@ -124,7 +124,12 @@ button{
 .moving{
     margin-right: 15px;
 }
-
+.together{
+    text-align: center;
+}
+#started{
+    margin-top: 25px;
+}
 }
 h4{
     font-family: var(--font-family);
@@ -160,6 +165,10 @@ h4{
 }
 #div-title{
     margin-right: 35px;
+}
+#ali-button{
+  margin-bottom: 30px; 
+  margin-left: 110px; 
 }
 @media (max-width: 475px) {
     .fix-button{
@@ -197,11 +206,13 @@ h4{
         border-radius: 40px; 
     }
   .cn{
-    font-size: 20px;
+    font-size: 17px;
     width: 100%;
     color: var(--Gray-950);
     font-weight: 200;
-    margin-left: 186px;
+    margin-left: 145px;
+    padding: 1px 20px;
+   
 }
 #ali-button{
     display: flex;
@@ -209,6 +220,8 @@ h4{
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-left: 10px;
+    margin-top: 30px;
 }
 
 }
@@ -228,6 +241,7 @@ h4{
 }
 .title-and-button{
     display: flex;   
+    
 }
 .fix-button{
     display: flex;
