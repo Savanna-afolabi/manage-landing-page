@@ -20,9 +20,11 @@ min-height: 100vh;
     display: flex;
    justify-content: space-between;
    padding-top: 50px;
+   align-items: center;
 }
 #logo{
     height: 30px;
+    padding: 0;
 }
 ul{
     display: flex;
@@ -282,6 +284,7 @@ h3{
     color: var(--Orange-400);
     background-color: var(--Gray-50);
     font-family: var(--font-family);
+    
 }
 footer{
     background-color: var(--Orange-400);
@@ -336,6 +339,7 @@ footer{
 }
 #icon-and-fake-links{
     display: flex;
+
 }
 #facebook{
     padding-left: 100px;
@@ -371,20 +375,41 @@ footer{
     background-color: var(--Orange-50);
     color: var(--Gray-950);
 }
-/* #icon-div{
-    
-} */
-@media (max-width: 475px){
 
-.icon{
-    padding: none;
-    margin: none; 
-    width: 40px; 
+@media (max-width: 475px){
+#icon-div{
+    display: flex;
+    flex-direction: row;
 }
+
 #icon-div{
     display: flex;
     align-items: center;
     flex-direction: row; 
     margin-right: 30px;
 }
+
+#icon-and-fake-links{
+     /* display: flex; */
+    flex-direction: column-reverse;
+    border: red solid 10px;
+}
+.icon{
+    padding: none;
+    margin: none; 
+    /* width: 40px; */
+    border: red solid 1px;
+    
+}
+.link-div{
+    margin-left: 40px;
+}
+}
+nav{
+    border: red solid 1px;
+
+}
+
+nav img{
+    border: blue solid 1px;
 }
