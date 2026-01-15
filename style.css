@@ -348,8 +348,15 @@ footer{
     color: white;
     font-family: var(--font-family);
     font-weight: 400;
-    padding-left: 420px;
     padding-bottom: 30px;
+    padding-left: 420px;
+    padding-right: 30px;
+}
+
+#link-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 #text-f{
     border-radius: 35px;
@@ -392,24 +399,16 @@ footer{
 #icon-and-fake-links{
      /* display: flex; */
     flex-direction: column-reverse;
-    border: red solid 10px;
+   
 }
 .icon{
     padding: none;
     margin: none; 
     /* width: 40px; */
-    border: red solid 1px;
+   
     
 }
 .link-div{
     margin-left: 40px;
 }
-}
-nav{
-    border: red solid 1px;
-
-}
-
-nav img{
-    border: blue solid 1px;
 }
