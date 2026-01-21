@@ -80,8 +80,7 @@ button:hover{
 #first-p{
     gap: 30px; 
 }
-@media (max-width: 475px) {
-    
+@media (max-width: 475px) { 
 body{
     overflow-x: hidden;
     background-image: url(asset/bg-tablet-pattern.svg);
@@ -214,7 +213,6 @@ h4{
     font-weight: 200;
     margin-left: 145px;
     padding: 1px 20px;
-   
 }
 #ali-button{
     display: flex;
@@ -225,7 +223,6 @@ h4{
     margin-left: 10px;
     margin-top: 30px;
 }
-
 }
 #sct-2-h2{
     align-self: center;
@@ -284,7 +281,6 @@ h3{
     color: var(--Orange-400);
     background-color: var(--Gray-50);
     font-family: var(--font-family);
-    
 }
 footer{
     background-color: var(--Orange-400);
@@ -310,7 +306,6 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 50px;
-        
     }
     #footer-h4{
         text-align: center;
@@ -352,7 +347,6 @@ footer{
     padding-left: 420px;
     padding-right: 30px;
 }
-
 #link-div{
     display: flex;
     flex-direction: row;
@@ -382,31 +376,25 @@ footer{
     background-color: var(--Orange-50);
     color: var(--Gray-950);
 }
-
 @media (max-width: 475px){
 #icon-div{
     display: flex;
     flex-direction: row;
 }
-
 #icon-div{
     display: flex;
     align-items: center;
     flex-direction: row; 
     margin-right: 30px;
 }
-
 #icon-and-fake-links{
      /* display: flex; */
     flex-direction: column-reverse;
-   
 }
 .icon{
     padding: none;
     margin: none; 
     /* width: 40px; */
-   
-    
 }
 .link-div{
     margin-left: 40px;
